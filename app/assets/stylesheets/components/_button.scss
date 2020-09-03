@@ -1,0 +1,12 @@
+a.btn-white {
+  margin-top: 20px;
+  background-color: white;
+  padding: 20px;
+  text-decoration: none;
+  border-radius: 10px;
+  display: inline-block;;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
