@@ -1,12 +1,9 @@
-<div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('<%= image_path 'cocktails.jpg' %>');">
+<div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('https://res.cloudinary.com/dq6gibxhn/image/upload/v1599265464/rlttq5zldz0lkfezhh37.jpg');">
    <div class="banner-content">
-    <h1>All Cocktails!</h1>
-    <%= link_to 'Add new cocktail',  new_cocktail_path, class: "btn-white" %>
+    <h1>SAKE -酒- Cocktails!</h1>
+    <%= link_to 'Add new sake cocktail',  new_cocktail_path, class: "btn-white" %>
   </div>
 </div>
-
-<%= cl_image_tag("rlttq5zldz0lkfezhh37",
-      width: 400, height: 300, crop: :fill) %>
 
 <div class="container">
   <div class="row">
@@ -19,10 +16,3 @@
     <% end %>
   </div>
 </div>
-
-
-
-
-<!-- for face detection -->
-<%= cl_image_tag("IMAGE_WITH_FACE_ID",
-      width: 150, height: 150, crop: :thumb, gravity: :face) %>
